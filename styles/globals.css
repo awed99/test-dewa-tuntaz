@@ -7,8 +7,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #100DB1 !important;
   text-decoration: none;
+}
+
+.text-center {
+  text-align: center !important;
 }
 
 * {
@@ -23,4 +27,26 @@ a {
     color: white;
     background: black;
   }
+}
+
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+      max-width: 1600px !important;
+  }
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  max-width: 1600px !important;
+}
+
+.alignCenter {
+  text-align: center !important;
+}
+
+.borderRadiusButtton {
+  border-radius: 15px;
+}
+
+.widthButton1 {
+  width: 150px;
 }
